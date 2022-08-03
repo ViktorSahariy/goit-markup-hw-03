@@ -219,12 +219,13 @@ nav > a {
     display:flex;
 } 
 /*TEAM*/ 
-.section .bgteam {
+.section.bgteam {
     padding-bottom: 94px;
     padding-top: 94px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    background-color: var(--color-team);
 }
 
 .teammates-list {
