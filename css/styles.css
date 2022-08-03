@@ -389,4 +389,7 @@ margin-right: 0;
 .name-work-box {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+} 
+.footer-logo-style {
+    text-decoration: none;
 }
