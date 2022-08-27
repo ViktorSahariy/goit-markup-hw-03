@@ -212,8 +212,8 @@ nav > a {
 .name.name-works {
     margin-bottom: 50px;
 }
-.work .work-list {
-    margin-right: 30px;
+.work {
+    gap: 30px;
 }
 .work .work-list :last-child {
     margin-right: 0;
@@ -276,10 +276,11 @@ margin-right: 0;
     background-color: var(--color-hero);
     color: var(--color-hero-name);
 }
-.footer .section {
+.footer.section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .logo-footer {
     color: var(--color-second);
     font-family: var(--font-family-logo);
@@ -333,6 +334,9 @@ margin-right: 0;
 }
 .footer-contacts-list {
     margin-bottom: 9px;
+}
+.footer-contacts-list:last-child {
+    margin-bottom: 0;
 }
 /*PORTFOLIO*/ 
 /*.portfolio.section {
